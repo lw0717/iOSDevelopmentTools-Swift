@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911A1E2F4FD300916115 /* LWTextView.swift */; };
+		C921911D1E2F5C3800916115 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911C1E2F5C3800916115 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C921910A1E2F4F2500916115 /* iOSDevelopmentTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSDevelopmentTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C92191161E2F4F3D00916115 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C921911A1E2F4FD300916115 /* LWTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWTextView.swift; sourceTree = "<group>"; };
+		C921911C1E2F5C3800916115 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		C92191191E2F4FA300916115 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				C921911C1E2F5C3800916115 /* UIColorExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */,
+				C921911D1E2F5C3800916115 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
