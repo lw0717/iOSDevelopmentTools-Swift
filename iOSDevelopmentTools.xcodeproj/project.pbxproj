@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911A1E2F4FD300916115 /* LWTextView.swift */; };
 		C921911D1E2F5C3800916115 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911C1E2F5C3800916115 /* UIColorExtension.swift */; };
+		C921911F1E2F5DA800916115 /* UIResponderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911E1E2F5DA800916115 /* UIResponderExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		C92191161E2F4F3D00916115 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C921911A1E2F4FD300916115 /* LWTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWTextView.swift; sourceTree = "<group>"; };
 		C921911C1E2F5C3800916115 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C921911E1E2F5DA800916115 /* UIResponderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponderExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				C921911C1E2F5C3800916115 /* UIColorExtension.swift */,
+				C921911E1E2F5DA800916115 /* UIResponderExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */,
+				C921911F1E2F5DA800916115 /* UIResponderExtension.swift in Sources */,
 				C921911D1E2F5C3800916115 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

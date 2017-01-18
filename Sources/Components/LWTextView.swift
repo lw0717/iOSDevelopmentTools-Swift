@@ -10,6 +10,7 @@ import UIKit
 
 @IBDesignable class LWTextView: UITextView {
     // 自定义含有placeholder的UITextView
+    // 添加LWTextView-自定义含有placeholder的UITextView
     @IBInspectable var placeholder: String? {
         // 为了在storyboard中显示该属性而设置为存储属性，在storyboard中计算属性是否会没有效果
         didSet {

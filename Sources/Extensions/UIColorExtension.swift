@@ -10,6 +10,7 @@ import UIKit
 
 extension UIColor {
     // 自定义十六进制的颜色生成办法
+    // 添加UIColor的扩展用于使用十六进制数值来生成颜色值
     public class func color(_ rgbColor: UInt32) -> UIColor {
         return color(rgbColor, alpha: 1.0)
     }
