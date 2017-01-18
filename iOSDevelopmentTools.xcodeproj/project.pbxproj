@@ -16,6 +16,8 @@
 		C92191271E2F619600916115 /* LWPictureViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191261E2F619600916115 /* LWPictureViewer.swift */; };
 		C92191291E2F61F100916115 /* LWNoticeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191281E2F61F100916115 /* LWNoticeSender.swift */; };
 		C921912B1E2F623E00916115 /* LWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921912A1E2F623E00916115 /* LWButton.swift */; };
+		C921912E1E2F62BB00916115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C921912D1E2F62BB00916115 /* Foundation.framework */; };
+		C92191301E2F62C200916115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C921912F1E2F62C200916115 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C92191261E2F619600916115 /* LWPictureViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWPictureViewer.swift; sourceTree = "<group>"; };
 		C92191281E2F61F100916115 /* LWNoticeSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWNoticeSender.swift; sourceTree = "<group>"; };
 		C921912A1E2F623E00916115 /* LWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWButton.swift; sourceTree = "<group>"; };
+		C921912D1E2F62BB00916115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C921912F1E2F62C200916115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92191301E2F62C200916115 /* UIKit.framework in Frameworks */,
+				C921912E1E2F62BB00916115 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +54,7 @@
 			children = (
 				C92191151E2F4F3D00916115 /* Sources */,
 				C921910B1E2F4F2500916115 /* Products */,
+				C921912C1E2F62BA00916115 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +97,15 @@
 				C92191241E2F60F000916115 /* UIApplicationExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C921912C1E2F62BA00916115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C921912F1E2F62C200916115 /* UIKit.framework */,
+				C921912D1E2F62BB00916115 /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
