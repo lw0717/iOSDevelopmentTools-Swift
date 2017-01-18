@@ -11,6 +11,7 @@
 		C921911D1E2F5C3800916115 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911C1E2F5C3800916115 /* UIColorExtension.swift */; };
 		C921911F1E2F5DA800916115 /* UIResponderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921911E1E2F5DA800916115 /* UIResponderExtension.swift */; };
 		C92191211E2F5F6A00916115 /* UIViewControllErextension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191201E2F5F6A00916115 /* UIViewControllErextension.swift */; };
+		C92191231E2F605F00916115 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191221E2F605F00916115 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C921911C1E2F5C3800916115 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		C921911E1E2F5DA800916115 /* UIResponderExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponderExtension.swift; sourceTree = "<group>"; };
 		C92191201E2F5F6A00916115 /* UIViewControllErextension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllErextension.swift; sourceTree = "<group>"; };
+		C92191221E2F605F00916115 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				C921911C1E2F5C3800916115 /* UIColorExtension.swift */,
 				C921911E1E2F5DA800916115 /* UIResponderExtension.swift */,
 				C92191201E2F5F6A00916115 /* UIViewControllErextension.swift */,
+				C92191221E2F605F00916115 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C92191231E2F605F00916115 /* UIViewExtension.swift in Sources */,
 				C92191211E2F5F6A00916115 /* UIViewControllErextension.swift in Sources */,
 				C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */,
 				C921911F1E2F5DA800916115 /* UIResponderExtension.swift in Sources */,
