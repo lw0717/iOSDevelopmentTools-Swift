@@ -15,6 +15,7 @@
 		C92191251E2F60F000916115 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191241E2F60F000916115 /* UIApplicationExtension.swift */; };
 		C92191271E2F619600916115 /* LWPictureViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191261E2F619600916115 /* LWPictureViewer.swift */; };
 		C92191291E2F61F100916115 /* LWNoticeSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191281E2F61F100916115 /* LWNoticeSender.swift */; };
+		C921912B1E2F623E00916115 /* LWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921912A1E2F623E00916115 /* LWButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C92191241E2F60F000916115 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		C92191261E2F619600916115 /* LWPictureViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWPictureViewer.swift; sourceTree = "<group>"; };
 		C92191281E2F61F100916115 /* LWNoticeSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWNoticeSender.swift; sourceTree = "<group>"; };
+		C921912A1E2F623E00916115 /* LWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		C92191181E2F4FA300916115 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				C921912A1E2F623E00916115 /* LWButton.swift */,
 				C921911A1E2F4FD300916115 /* LWTextView.swift */,
 				C92191261E2F619600916115 /* LWPictureViewer.swift */,
 				C92191281E2F61F100916115 /* LWNoticeSender.swift */,
@@ -173,6 +176,7 @@
 				C92191231E2F605F00916115 /* UIViewExtension.swift in Sources */,
 				C92191211E2F5F6A00916115 /* UIViewControllErextension.swift in Sources */,
 				C92191271E2F619600916115 /* LWPictureViewer.swift in Sources */,
+				C921912B1E2F623E00916115 /* LWButton.swift in Sources */,
 				C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */,
 				C92191291E2F61F100916115 /* LWNoticeSender.swift in Sources */,
 				C921911F1E2F5DA800916115 /* UIResponderExtension.swift in Sources */,
