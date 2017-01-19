@@ -18,6 +18,7 @@
 		C921912B1E2F623E00916115 /* LWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C921912A1E2F623E00916115 /* LWButton.swift */; };
 		C921912E1E2F62BB00916115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C921912D1E2F62BB00916115 /* Foundation.framework */; };
 		C92191301E2F62C200916115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C921912F1E2F62C200916115 /* UIKit.framework */; };
+		C92191561E2F685000916115 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191551E2F685000916115 /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		C921912A1E2F623E00916115 /* LWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWButton.swift; sourceTree = "<group>"; };
 		C921912D1E2F62BB00916115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C921912F1E2F62C200916115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C92191551E2F685000916115 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				C92191201E2F5F6A00916115 /* UIViewControllErextension.swift */,
 				C92191221E2F605F00916115 /* UIViewExtension.swift */,
 				C92191241E2F60F000916115 /* UIApplicationExtension.swift */,
+				C92191551E2F685000916115 /* UIImageExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				C92191251E2F60F000916115 /* UIApplicationExtension.swift in Sources */,
 				C92191231E2F605F00916115 /* UIViewExtension.swift in Sources */,
 				C92191211E2F5F6A00916115 /* UIViewControllErextension.swift in Sources */,
+				C92191561E2F685000916115 /* UIImageExtension.swift in Sources */,
 				C92191271E2F619600916115 /* LWPictureViewer.swift in Sources */,
 				C921912B1E2F623E00916115 /* LWButton.swift in Sources */,
 				C921911B1E2F4FD300916115 /* LWTextView.swift in Sources */,
