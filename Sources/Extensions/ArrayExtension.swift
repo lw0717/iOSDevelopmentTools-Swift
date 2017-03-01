@@ -9,10 +9,6 @@
 import Foundation
 
 extension Array {
-    public func contains<T: Equatable>(_ obj: T) -> Bool {
-        return self.contains(where: { $0 as? T == obj })
-    }
-    
     public func index<T: Equatable>(_ obj: T) -> Index? {
         return self.index(where: { $0 as? T == obj })
     }
