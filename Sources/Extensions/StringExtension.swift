@@ -9,6 +9,16 @@
 import Foundation
 
 extension String {
+    
+    func isIncludeChinese() -> Bool {
+        for char in self.characters {
+            if ("\u{4E00}" <= char  && char <= "\u{9FA5}") {
+                return true
+            }
+        }
+        return false
+    }
+    
     func chinesePhoneticAlphabet() -> String {
         var pinyin = ""
         if self == "" {
