@@ -21,6 +21,7 @@
 		C92191301E2F62C200916115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C921912F1E2F62C200916115 /* UIKit.framework */; };
 		C92191561E2F685000916115 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92191551E2F685000916115 /* UIImageExtension.swift */; };
 		C93226061E4DA403002FD6BA /* LWArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93226051E4DA403002FD6BA /* LWArray2D.swift */; };
+		C978DF6D1E80CACA00E4FEB4 /* LWLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C978DF6C1E80CACA00E4FEB4 /* LWLinkedList.swift */; };
 		C9A66A211E7A61C200A19896 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A66A201E7A61C200A19896 /* StringExtension.swift */; };
 		C9B8C0D11E767ED200F417B8 /* LWStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B8C0D01E767ED200F417B8 /* LWStack.swift */; };
 		C9B8C0D31E767F2700F417B8 /* LWQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B8C0D21E767F2700F417B8 /* LWQueue.swift */; };
@@ -43,6 +44,7 @@
 		C921912F1E2F62C200916115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C92191551E2F685000916115 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		C93226051E4DA403002FD6BA /* LWArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWArray2D.swift; sourceTree = "<group>"; };
+		C978DF6C1E80CACA00E4FEB4 /* LWLinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWLinkedList.swift; sourceTree = "<group>"; };
 		C9A66A201E7A61C200A19896 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		C9B8C0D01E767ED200F417B8 /* LWStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWStack.swift; sourceTree = "<group>"; };
 		C9B8C0D21E767F2700F417B8 /* LWQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWQueue.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				C92191281E2F61F100916115 /* LWNoticeSender.swift */,
 				C9B8C0D01E767ED200F417B8 /* LWStack.swift */,
 				C9B8C0D21E767F2700F417B8 /* LWQueue.swift */,
+				C978DF6C1E80CACA00E4FEB4 /* LWLinkedList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				C9B8C0D31E767F2700F417B8 /* LWQueue.swift in Sources */,
 				C92191251E2F60F000916115 /* UIApplicationExtension.swift in Sources */,
 				C9A66A211E7A61C200A19896 /* StringExtension.swift in Sources */,
+				C978DF6D1E80CACA00E4FEB4 /* LWLinkedList.swift in Sources */,
 				C92191231E2F605F00916115 /* UIViewExtension.swift in Sources */,
 				C92191211E2F5F6A00916115 /* UIViewControllErextension.swift in Sources */,
 				C913CDA61E666503005A55A3 /* ArrayExtension.swift in Sources */,

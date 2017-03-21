@@ -8,29 +8,29 @@
 
 import Foundation
 
-public struct LWStack<Element> {
+public struct Stack<Element> {
     private var stack: Array<Element>
     init() {
         stack = []
+    }
+    public var size: Int {
+        return stack.count
+    }
+    public var isEmpty: Bool {
+        return stack.isEmpty
     }
     public mutating func push(_ element: Element) {
         stack.append(element)
     }
     public mutating func pop() -> Element? {
         //return stack.popLast()
-        if isEmpty() {
+        if self.isEmpty {
             return nil
         }else {
             return stack.removeLast()
         }
     }
-    public func isEmpty() -> Bool {
-        return stack.isEmpty
-    }
     public func peek() -> Element? {
         return stack.last
-    }
-    public func size() -> Int {
-        return stack.count
     }
 }

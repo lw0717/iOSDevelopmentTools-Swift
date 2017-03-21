@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Array2D<T> {
+public struct Array2D<T> {
     let rows: Int
     let columns: Int
     
