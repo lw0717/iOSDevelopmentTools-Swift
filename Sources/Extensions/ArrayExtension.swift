@@ -9,6 +9,7 @@
 import Foundation
 
 extension Array where Element: Equatable {
+    // 该部分的几个方法，在array不含有重复元素的时候均成立，在含有重复元素的时候是否合理还需要验证
     public func index(_ obj: Element) -> Index? {
         return self.index(where: { $0 == obj })
     }
@@ -17,13 +18,19 @@ extension Array where Element: Equatable {
         guard objs.count <= self.count else {
             return false
         }
-        var isTreated: Bool = false
         for obj in objs {
-            if self.contains(where: { $0 == obj }) {
-                isTreated = true
+            if !self.contains(where: { $0 == obj }) {
+                return false
             }
         }
-        return isTreated
+        return true
+    }
+    
+    public static func ==(lhs: Array, rhs: Array) -> Bool {
+        guard lhs.count == rhs.count else {
+            return false
+        }
+        return lhs.contains(rhs)
     }
     
     public mutating func remove(_ obj: Element) -> Bool {
@@ -39,14 +46,10 @@ extension Array where Element: Equatable {
             return false
         }
         if self.count == objs.count {
+            self = []
             return true
         }
-        var isTreated: Bool = false
-        for obj in objs {
-            if self.remove(obj) {
-                isTreated = true
-            }
-        }
-        return isTreated
+        self = self.filter { !objs.contains($0) }
+        return true
     }
 }
