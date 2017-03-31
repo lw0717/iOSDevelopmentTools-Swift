@@ -8,16 +8,45 @@
 
 import Foundation
 
-extension Array {
-    public func index<T: Equatable>(_ obj: T) -> Index? {
-        return self.index(where: { $0 as? T == obj })
+extension Array where Element: Equatable {
+    public func index(_ obj: Element) -> Index? {
+        return self.index(where: { $0 == obj })
     }
     
-    public mutating func remove<T: Equatable>(_ obj: T) -> Bool {
+    public func contains(_ objs: [Element]) -> Bool {
+        guard objs.count <= self.count else {
+            return false
+        }
+        var isTreated: Bool = false
+        for obj in objs {
+            if self.contains(where: { $0 == obj }) {
+                isTreated = true
+            }
+        }
+        return isTreated
+    }
+    
+    public mutating func remove(_ obj: Element) -> Bool {
         if let index = index(obj) {
             _ = self.remove(at: index)
             return true
         }
         return false
+    }
+    
+    public mutating func remove(_ objs: [Element]) -> Bool {
+        guard self.contains(objs) else {
+            return false
+        }
+        if self.count == objs.count {
+            return true
+        }
+        var isTreated: Bool = false
+        for obj in objs {
+            if self.remove(obj) {
+                isTreated = true
+            }
+        }
+        return isTreated
     }
 }
