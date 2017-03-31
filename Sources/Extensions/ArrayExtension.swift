@@ -10,10 +10,6 @@ import Foundation
 
 extension Array where Element: Equatable {
     // 该部分的几个方法，在array不含有重复元素的时候均成立，在含有重复元素的时候是否合理还需要验证
-    public func index(_ obj: Element) -> Index? {
-        return self.index(where: { $0 == obj })
-    }
-    
     public func contains(_ objs: [Element]) -> Bool {
         guard objs.count <= self.count else {
             return false
@@ -34,7 +30,7 @@ extension Array where Element: Equatable {
     }
     
     public mutating func remove(_ obj: Element) -> Bool {
-        if let index = index(obj) {
+        if let index = index(of: obj) {
             _ = self.remove(at: index)
             return true
         }

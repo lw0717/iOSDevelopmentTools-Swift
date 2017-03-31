@@ -31,7 +31,7 @@ public struct LinkedList<Element: Equatable> {
         linkedList.append(element)
     }
     public func fetch(_ element: Element) -> Index? {
-        return linkedList.index(element)
+        return linkedList.index(of: element)
     }
     public mutating func modify(_ newElement: Element, at index: Index) -> Element? {
         if checkIndex(index) {
